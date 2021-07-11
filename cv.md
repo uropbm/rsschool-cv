@@ -18,7 +18,14 @@ Hello. My name is Igor. I am 33 years old. My goal is to become a good programme
 * CSS;
 * Git
 ## Sample code
-No yet
+```
+function createPhoneNumber(numbers){
+  let tel = "(xxx) xxx-xxxx";
+  for (let i = 0; i < numbers.length; i++)
+    tel = tel.replace("x", numbers[i]);
+  return tel;
+}
+```
 ## Work experience
 Machine tool design engineer. Unfortunately, there is no programming experience yet.
 ## Education
