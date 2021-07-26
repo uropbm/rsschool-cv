@@ -1,0 +1,123 @@
+html {
+    font-size: 14px;
+}
+
+.card {
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 6px 6px 5px 2px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 243, 243);
+}
+
+.info_block {
+    width: 250px;
+    background-color: rgb(83, 123, 184);
+    color: white;
+    display: inline-block;
+    
+}
+
+.section h3 {
+    background-color: rgb(56, 91, 145);
+    padding-left: 10px;
+}
+
+.contacts_info {
+    text-align: left;
+}
+
+.kyrsiv {
+    font-style: italic;
+}
+
+.avatar {
+    display: block;
+    margin: 5px;
+    padding-top: 1px;
+}
+
+.avatar h1 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.images {
+    width: 100%;
+}
+
+.info_block li {
+    margin: 6px;
+}
+
+.info_block li a {
+    color: white;
+    text-decoration: none;
+}
+
+.info_block p li:hover {
+    text-decoration: underline;
+}
+
+.circle {
+    font-size: 25px;
+    color: rgb(195, 206, 233);
+    padding-left: 0px;
+}
+
+.section p {
+    margin: 0px;
+    text-align: left;
+    margin-left: 30px;
+    font-style: italic;
+}
+
+.right_collum {
+    display: inline-block;
+    position: absolute;
+    width: 450px;
+}
+
+.section_right {
+    margin: 0px;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.section_right p{
+    font-style: italic;
+}
+
+.section_right ul {
+    margin: 0px;
+    padding-left: 10px;
+    list-style: '✔ ';
+    font-style: italic;
+}
+
+.footer {
+    background-color: rgb(83, 123, 184);
+    text-align: center;
+    border-top: 1px solid rgb(195, 206, 233);
+}
+
+.footer p {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer img {
+    margin-top: 5px;
+}
+
+.image_git {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.image_rss {
+    width: 100px;
+    margin-left: 10px;
+}
