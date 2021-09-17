@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>CV</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="highlight/styles/vs.min.css">
+        <script src="highlight/highlight.min.js"></script>
     </head>
 
     <body>
@@ -16,7 +18,7 @@
                     <figcaption><h1>IGOR MAKAROV</h1></figcaption>
                 </figure>
                 <section class="section">
-                    <h3>Contacts:</h3>
+                    <h2>Contacts:</h2>
                     <ul class="contacts_info">
                         <li><a href="+375295187505"><b>Tel:</b> <i>+375295187505</i></a></li>
                         <li><a href="mailto:naykmk@gmail.com"><b>E-mail:</b> <i>naykmk@gmail.com</i></a></li>
@@ -25,7 +27,7 @@
                     </ul>  
                 </section>              
                 <section class="section">
-                    <h3>Personality:</h3>
+                    <h2>Personality:</h2>
                     <ul class="kyrsiv">
                         <li>perseverance</li>
                         <li>a responsibility</li>
@@ -36,25 +38,33 @@
                     </ul>
                 </section>
                 <section class="section">
-                    <h3>Languages:</h3>
+                    <h2>Work Examples:</h2>
+                    <ul class="work-ul">
+                        <li><a href="https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/museum/" target="_blank">Museum</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/vertical-slider/" target="_blank">Slider</a></li>
+                        <li><a href="https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/custom-video-player/" target="_blank">Video Player</a></li>
+                    </ul>
+                </section>
+                <section class="section">
+                    <h2>Languages:</h2>
                     <p>English</p>
-                    <p class="circle">&#x25CF; &#x25CB; &#x25CB; &#x25CB; &#x25CB; &#x25CB;</p>
+                    <p class="circle">&#x25CF; &#x25CF; &#x25CB; &#x25CB; &#x25CB; &#x25CB;</p>
                 </section>
             </aside>
-            <div class="right_collum">
+            <main class="right_collum">
                 <section class="section_right">
-                    <h3>About Me:</h3>
-                    <p>Hello. My name is Igor. I am 33 years old. My goal is to become a good programmer. The priority is to achieve the goal. I believe that it is never too late to learn and it is always necessary.</p>
+                    <h3 id="about">About Me:</h3>
+                    <p class="right-p">Hello. My name is Igor. I am 33 years old. My goal is to become a good programmer. The priority is to achieve the goal. I believe that it is never too late to learn and it is always necessary.</p>
                 </section>
                 <section class="section_right">
-                    <h3>Education:</h3>
+                    <h3 id="education">Education:</h3>
                     <ul>
                         <li>Polotsk State University. Faculty of Mechanical Engineering. Engineer (2005-2010)</li>
                         <li>Polotsk State University. Department of Economics. Enterprise Management Economics(2011-2013)</li>
                     </ul>
                 </section>
                 <section class="section_right">
-                    <h3>My skills:</h3>
+                    <h3 id="skills">My skills:</h3>
                     <ul>
                         <li>Git</li>
                         <li>HTML</li>
@@ -63,23 +73,34 @@
                     </ul>
                 </section>
                 <section class="section_right">
-                    <h3>Sample code:</h3>
-                    <code>
-                            function createPhoneNumber(numbers){<Br>
-                                &nbsp; let tel = "(xxx) xxx-xxxx";<Br>
-                                &nbsp; for (let i = 0; i &lt; numbers.length; i++)<Br>
-                                    &nbsp; &nbsp; tel = tel.replace("x", numbers[i]);<Br>
-                                &nbsp; return tel;<Br>
-                            }<Br>
-                    </code>
+                    <h3 id="code">Sample code:</h3>
+                    <pre class="pre"><code>
+function DNAStrand(dna){
+    const swap = {
+        "A" : "T",
+        "T" : "A",
+        "C" : "G",
+        "G" : "C"
+    }
+    return dna.replace(/[ATCG]/g, a =&gt; swap[a])
+}
+                    </code></pre>
                 </section>
-            </div>
+                <section  class="section_right">
+                    <h3 id="work">Work Example:</h3>
+                    <div class="line">
+                        <a class="line-work" href="https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/museum/" target="_blank"><img class="image-work" src="img/Museum.jpg" alt="Museum"></a>
+                        <a class="line-work" href="https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/vertical-slider/" target="_blank"><img class="image-work" src="img/polar-bear.jpg" alt="Bear"></a>
+                        <a class="line-work" href="https://rolling-scopes-school.github.io/uropbm-JSFEPRESCHOOL/custom-video-player/" target="_blank"><img class="image-work" src="img/Creek.jpg" alt="VideoPlayer"></a>
+                    </div>
+                </section>
+            </main>
             <footer class="footer">
                 <span><a href="https://github.com/uropbm"><img class="image_git" src="img/git.png" alt="GitHub"></a></span>
                 <span><a href="https://rs.school/js/"><img class="image_rss" src="img/rss.png" alt="RSSchool"></a></span>
-                <p>Igor Makarov, 2021</p>
+                <h6>Igor Makarov, 2021</h6>
             </footer>
         </div>
     </body>
-
+<script src="console.js"></script>
 </html>
