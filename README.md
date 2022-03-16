@@ -1,1 +1,1 @@
-https://uropbm.github.io/rsschool-cv/cv
+https://uropbm.github.io/rsschool-cv
